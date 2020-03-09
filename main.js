@@ -1,0 +1,10 @@
+"use strict";
+exports.__esModule = true;
+var class_n_access_modifiers_1 = require("./class_n_access_modifiers");
+var point = new class_n_access_modifiers_1.Point(2, 3);
+point.draw();
+console.log(point.getX());
+point.setX(100);
+console.log(point.getX());
+point.setX(0);
+console.log(point.getX());
